@@ -181,9 +181,12 @@ ul>*{
   padding: 15px 0;
 
 }
-li > a{
+ a{
   text-decoration: none;
   color: white;
+}
+a:hover{
+  color: var(--cyan);
 }
 ion-icon{
   width: 20px;
