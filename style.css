@@ -8,7 +8,7 @@
   --body-font: 'Open Sans', sans-serif;
 }
 
-*,
+/* *,
 *::before,
 *::after {
   margin: 0;
@@ -16,8 +16,14 @@
   box-sizing: border-box;
   font-size: 18px;
   font-family: var(--body-font);
+} */
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: var(--body-font);
 }
-
 /* header styles */
 header{
   width: 100%;
@@ -215,10 +221,10 @@ ion-icon{
     font-size: 25px;
   }
   h2{
-    font-size: 19px;
+    font-size: 21px;
   }
-  .aside > p{
-    font-size: 13px;
+  article > p{
+    font-size: 15px;
   }
   /* header styles */
   .header-content{
