@@ -211,6 +211,15 @@ ion-icon{
 
 /* responsive 700px */
 @media (max-width:900px) {
+  h1{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 19px;
+  }
+  .aside > p{
+    font-size: 13px;
+  }
   /* header styles */
   .header-content{
     margin: 20px auto;
