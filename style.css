@@ -266,7 +266,9 @@ ion-icon{
     height: auto;
     margin: 70px auto 20px auto;
   }
-
+  .ad{
+    width: 90%;
+  }
   /* the footer styles */
   .footer-main{
     flex-direction: column;
