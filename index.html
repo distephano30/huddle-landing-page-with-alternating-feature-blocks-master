@@ -18,27 +18,29 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
+
+  <!-- the header -->
+  <header>
+    <div class="header">
+      <div class="logo">
+        <img src="images/logo.svg" alt="huddle">
+      </div>
+      <button type="button" class="btn btn-try">Try It Free</button>
+    </div>
+    <!-- header content -->
+    <div class="header-content">
+      <div class="aside">
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion.</p>
+          <button type="button" class="btn btn-started">Get Started For Free</button>
+        </div>
+        <img src="images/illustration-mockups.svg" aria-hidden="true">
+      </div>
+    </header>
   <!-- the main page -->
   <main>
-    <!-- the header -->
-    <header>
-      <div class="header">
-        <div class="logo">
-          <img src="images/logo.svg" alt="">
-        </div>
-        <button type="button" class="btn btn-try">Try It Free</button>
-      </div>
-      <!-- header content -->
-      <div class="header-content">
-        <div class="aside">
-          <h1>Build The Community Your Fans Will Love</h1>
-          <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-            Create connections with your users as you engage in genuine discussion.</p>
-            <button type="button" class="btn btn-started">Get Started For Free</button>
-          </div>
-          <img src="images/illustration-mockups.svg" alt="">
-        </div>
-      </header>
+
 
       <!-- Grow Together Section -->
       <section>
@@ -47,12 +49,12 @@
           <p>Generate meaningful discussions with your audience and build a strong, loyal community.
             Think of the insightful conversations you miss out on with a feedback form.</p>
           </article>
-          <img src="images/illustration-grow-together.svg" alt="">
+          <img src="images/illustration-grow-together.svg" aria-hidden="true">
         </section>
 
         <!-- Flowing section -->
         <section>
-          <img src="images/illustration-flowing-conversation.svg" alt="">
+          <img src="images/illustration-flowing-conversation.svg" aria-hidden="true">
           <article class="flowing-conversation">
             <h2>Flowing Conversations</h2>
             <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads
@@ -67,10 +69,8 @@
               <p>It takes no time at all to integrate Huddle with your app's authentication solution.
                 This means, once signed in to your app, your users can start chatting immediately.</p>
               </article>
-              <img src="images/illustration-your-users.svg" alt="">
+              <img src="images/illustration-your-users.svg" aria-hidden="true">
             </section>
-
-
 
           </main>
 
@@ -78,7 +78,7 @@
           <footer>
             <!-- ad section -->
             <div class="ad">
-              <h1>Ready To Build Your Community?</h1>
+              <h2>Ready To Build Your Community?</h2>
               <button type="button" class="btn btn-started btn-ad">Get Started For Free</button>
             </div>
 
@@ -87,7 +87,7 @@
             <!-- The personal info -->
             <div class="contact">
               <div class="logo">
-                <img src="images/logo.svg" alt="">
+                <img src="images/logo.svg" alt="huddle">
               </div>
               <div class="location contact-info">
                 <img src="images/icon-location.svg" alt="">
@@ -105,21 +105,21 @@
               </div>
 
               <!-- the links -->
-              <ul>
+              <nav>
                 <a href="#">About Us</a>
-                <li> <a href="#">What We Do</a> </li>
-                <li> <a href="#">FAQ</a> </li>
-                <li> <a href="#">Career</a> </li>
-                <li> <a href="#">Blog</a> </li>
-                <li> <a href="#">Contact Us</a> </li>
-              </ul>
+                <a href="#">What We Do</a>
+                <a href="#">FAQ</a>
+                <a href="#">Career</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact Us</a>
+              </nav>
 
               <!-- the socials -->
 
                 <div class="socials">
-                  <a href="#"> <ion-icon aria-label="Our facebook page" name="logo-facebook"></ion-icon> </a>
-                  <a href="#"> <ion-icon aria-label="Our twitter page" name="logo-twitter"></ion-icon> </a>
-                  <a href="#"> <ion-icon aria-label="Our instagram page" name="logo-instagram"></ion-icon> </a>
+                  <a aria-label="facebook" href="#"> <ion-icon  name="logo-facebook"></ion-icon> </a>
+                  <a aria-label="twitter" href="#"> <ion-icon  name="logo-twitter"></ion-icon> </a>
+                  <a aria-label="instagram" href="#"> <ion-icon  name="logo-instagram"></ion-icon> </a>
                 </div>
 
               </div>
