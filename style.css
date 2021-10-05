@@ -8,19 +8,20 @@
   --body-font: 'Open Sans', sans-serif;
 }
 
-/* *,
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 18px;
-  font-family: var(--body-font);
-} */
+  box-sizing: inherit;
+}
+
 body{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-size: 18px;
   font-family: var(--body-font);
 }
@@ -131,7 +132,7 @@ article > p{
   top: -250px;
   left: 25%;
 }
-.ad > h1 {
+.ad > h2 {
   color: var(--dark-cyan);
   padding: 50px 0 10px 0;
 }
@@ -179,13 +180,12 @@ footer{
   margin-left: 30px;
 }
 
-ul{
+nav{
   width: 25%;
-  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
-ul>*{
+nav>*{
   flex: 1  120px;
   padding: 15px 0;
 
