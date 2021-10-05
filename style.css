@@ -217,6 +217,9 @@ ion-icon{
 
 /* responsive 700px */
 @media (max-width:900px) {
+  .logo{
+    width: 35%;
+  }
   h1{
     font-size: 25px;
   }
@@ -269,6 +272,9 @@ ion-icon{
   .ad{
     width: 90%;
     left: 5%;
+  }
+  .btn-ad{
+    font-size: 12px;
   }
   /* the footer styles */
   .footer-main{
